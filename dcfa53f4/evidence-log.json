@@ -1,0 +1,94 @@
+[
+ {
+  "step": "1 載入並播放：A 的播放器狀態（1=播放中）",
+  "data": {
+   "state": 1,
+   "all": {
+    "J38Yq85ZoyY": 1,
+    "d04A_wa2GOE": 5
+   },
+   "iframes": [
+    "https://www.youtube-nocookie.com/embed/J38Yq85ZoyY",
+    "https://www.youtube-nocookie.com/embed/d04A_wa2GOE"
+   ]
+  }
+ },
+ {
+  "step": "2 全螢幕後按 Back #1",
+  "data": {
+   "sameUrl": true,
+   "bodyOverflow": "",
+   "stateA": 1,
+   "iframes": 2
+  }
+ },
+ {
+  "step": "2 全螢幕後按 Back #2",
+  "data": {
+   "sameUrl": true,
+   "bodyOverflow": "",
+   "stateA": 1,
+   "iframes": 2
+  }
+ },
+ {
+  "step": "2 全螢幕後按 Back #3",
+  "data": {
+   "sameUrl": true,
+   "bodyOverflow": "",
+   "stateA": 1,
+   "iframes": 2
+  }
+ },
+ {
+  "step": "3 分頁隱藏後 A 的狀態（2=已暫停）",
+  "data": {
+   "state": 2
+  }
+ },
+ {
+  "step": "3 回到分頁後 A 的狀態（1=播放中）",
+  "data": {
+   "state": 1
+  }
+ },
+ {
+  "step": "4 離開到技能書架後頁面上的播放器數量",
+  "data": {
+   "iframes": 0
+  }
+ },
+ {
+  "step": "4 回到 Short 後 A 再次播放",
+  "data": {
+   "state": 1
+  }
+ },
+ {
+  "step": "5 版主隱藏 A 之後",
+  "data": {
+   "playerForA": 0,
+   "dbState": "hidden",
+   "stateB": 1
+  }
+ },
+ {
+  "step": "6 作者撤回 B 之後",
+  "data": {
+   "playerForB": 0,
+   "stateC": 1
+  }
+ },
+ {
+  "step": "7 檢舉 C",
+  "data": {
+   "reports": [
+    {
+     "target_kind": "post",
+     "target_id": "18cace05-3d14-4bc6-b10f-cfb2041d9a0e"
+    }
+   ],
+   "expectedTarget": "18cace05-3d14-4bc6-b10f-cfb2041d9a0e"
+  }
+ }
+]
